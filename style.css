@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');*
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    /* background-image: url(background.jpg); */
+    /* background-size: cover; 
+    background-position: center;
+    box-sizing: border-box; */
+}
+.menu-bar
+{
+    background: rgb(0,0,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff; 
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background-color: #1f456e;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,0,0);
+    margin-top: 15px;
+    margin-left:15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #1f456e;
+}
+
+/*COURSES PAGE*/
+
+.page-title
+{
+    margin-left: 140px;
+    padding: 10px;
+    color: white;
+}
+.course
+{
+    border-radius: 15px;
+    padding: 20px;
+    padding-right: 500px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #1f456e;
+    color: white;
+}
+.course h2
+{
+    margin-left: 30px;
+}
+.course medium
+{
+    margin-left: 30px;
+}
+.course .button a
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 810px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/*CONTENT PAGE*/
+
+.menu-bar medium
+{
+    margin-left: 550px;
+    color: white;
+}
+
+
